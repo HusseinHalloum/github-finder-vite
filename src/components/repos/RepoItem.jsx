@@ -17,7 +17,7 @@ function RepoItem({ repo }) {
     <div className='mb-2 rounded-md card border border-neutral  hover:border-neutral-content bg-neutral transition ease-in-out delay-150'>
       <div className='card-body'>
         <h3 className='mb-2 text-xl font-semibold'>
-          <a href={html_url}>
+          <a href={html_url} target='_blank' rel='noopener noreferrer'>
             <FaLink className='inline mr-1' /> {name}
           </a>
         </h3>
